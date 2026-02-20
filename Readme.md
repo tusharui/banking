@@ -39,9 +39,12 @@ pip install -r requirements.txt
 
 Place your trained model in the project folder:
 
-Either best_fraud_model_tuned.pkl (recommended — includes model, threshold, features, scaler)
+ fraud_model.pkl (bare model)
 
-Or fraud_model.pkl (bare model)
+ for use 
+streamlit app, use the following command in your project directory (where app.py is located):
+
+streamlit run app.py
 
 Usage
 
